@@ -1,0 +1,36 @@
+#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
+#┆ FILE: ~/.config/fish/themes/moonlight.theme                                 ┆
+#┆ ABOUT: moonlight fish theme                                                 ┆
+#┆ USAGE: To demo, run `fish_config theme demo moonlight`. To load this theme  ┆
+#┆   every time fish is launched, add 'fish_config theme choose moonlight' to  ┆
+#┆   config.fish.                                                              ┆
+#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
+#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
+#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
+
+fish_color_normal normal
+fish_color_command 40ffff
+fish_color_quote 2df4c0
+fish_color_redirection ffc777
+fish_color_end 04d1f9
+fish_color_error ff5370
+fish_color_param b4a4f4
+fish_color_comment 748cd6
+fish_color_match --background=brblue
+fish_color_selection a3ace1 --bold --background=brblack
+fish_color_search_match ffc777 --background=brblack
+fish_color_history_current --bold
+fish_color_operator 04d1f9
+fish_color_escape 04d1f9
+fish_color_cwd 2df4c0
+fish_color_cwd_root ff5370
+fish_color_valid_path --underline
+fish_color_autosuggestion 748cd6
+fish_color_user 2df4c0
+fish_color_host normal
+fish_color_cancel -r
+fish_color_status ffc777
+fish_pager_color_completion normal
+fish_pager_color_description ffc777
+fish_pager_color_prefix a3ace1 --bold --underline
+fish_pager_color_progress ef43fa --background=cyan

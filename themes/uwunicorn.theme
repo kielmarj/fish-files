@@ -1,0 +1,48 @@
+#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
+#┆ FILE: ~/.config/fish/themes/uwunicorn.theme                                 ┆
+#┆ ABOUT: uwunicorn fish theme                                                 ┆
+#┆ USAGE: To demo, run `fish_config theme demo uwunicorn`. To load this theme  ┆
+#┆   every time fish is launched, add 'fish_config theme choose uwunicorn' to  ┆
+#┆   config.fish.                                                              ┆
+#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
+#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
+#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
+
+fish_color_autosuggestion 6c3cb2
+fish_color_cancel ff5555 --reverse
+fish_color_command 6a9eb5
+fish_color_comment 6c3cb2
+fish_color_cwd c965bf
+fish_color_cwd_root 877bb6
+fish_color_end 9c5fce
+fish_color_error 877bb6
+fish_color_escape 9c5fce
+fish_color_history_current --bold
+fish_color_host f8f8f2
+fish_color_host_remote f8f8f2
+fish_color_keyword ff79c6
+fish_color_match --background=brblue
+fish_color_normal f8f8f2
+fish_color_operator 9c5fce
+fish_color_option ffb86c
+fish_color_param d9c2c6
+fish_color_quote c965bf
+fish_color_redirection a84a73
+fish_color_search_match a84a73 --background=brblack
+fish_color_selection eed5d9--bold --background=brblack
+fish_color_status ff5555
+fish_color_user c965bf
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion normal
+fish_pager_color_description a84a73
+fish_pager_color_prefix eed5d9 --bold --underline
+fish_pager_color_progress e4ccd0 --background=cyan
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion f8f8f2
+fish_pager_color_secondary_description 6272a4
+fish_pager_color_secondary_prefix 8be9fd
+fish_pager_color_selected_background --background=44475a
+fish_pager_color_selected_completion f8f8f2
+fish_pager_color_selected_description 6272a4
+fish_pager_color_selected_prefix 8be9fd

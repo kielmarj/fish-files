@@ -1,0 +1,19 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export CARGO_HOME:/home/jess/\x2elocal/lib/cargo
+SETUVAR --export COLUMNS:80
+SETUVAR --export EDITOR:micro
+SETUVAR --export GNUPGHOME:/home/jess/\x2elocal/share/gpg
+SETUVAR --export GOPATH:/home/jess/\x2elocal/lib/go
+SETUVAR --export NPM_CONFIG_USERCONFIG:/home/jess/\x2econfig/npm/npmrc
+SETUVAR --export OPENER:mimeo
+SETUVAR --export PAGER:bat
+SETUVAR --export PARALLEL_HOME:/home/jess/\x2econfig/parallel
+SETUVAR --export RIPGREP_CONFIG_PATH:/home/jess/\x2econfig/ripgrep/ripgreprc
+SETUVAR --export RUSTUP_HOME:/home/jess/\x2elocal/lib/rustup
+SETUVAR --export SHELL:/usr/bin/fish
+SETUVAR --export VISUAL:code
+SETUVAR __fish_initialized:3400
+SETUVAR fish_features:qmark\x2dnoglob
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_user_paths:/home/jess/Projects/exercism-solutions/bash\x1e/home/jess/Projects/testing\x1e/home/jess/Projects/script-collection\x1e/home/jess/bin

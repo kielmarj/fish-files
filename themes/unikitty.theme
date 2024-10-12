@@ -1,0 +1,52 @@
+#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
+#┆ PROJECT: Arch/Hyprland Dotfiles                                             ┆
+#┆ FILE:                                                                       ┆
+#┆ AUTHOR/LICENSE:  NaturalBornCyborg/GPL-3.0                                 ┆
+#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
+#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
+#==============================================================================#
+# ~/.config/fish/themes/unikitty.theme                                         #
+#                                                                              #
+# unikitty (kinda) fish theme                                                  #
+#                                                                              #
+#  https://github.com/NaturalBornCyborg/dot_dot_dots                          #
+#==============================================================================#
+
+fish_color_autosuggestion ff669b
+fish_color_cancel ff5555 --reverse
+fish_color_command 796af5
+fish_color_comment ff669b
+fish_color_cwd 17ad98
+fish_color_cwd_root d8137f
+fish_color_end 149bda
+fish_color_error d8137f
+fish_color_escape 149bda
+fish_color_history_current --bold
+fish_color_host ea9a97
+fish_color_host_remote ea9a97
+fish_color_keyword ff79c6
+fish_color_match --background=brblue
+fish_color_normal ea9a97
+fish_color_operator 149bda
+fish_color_param d8d7da
+fish_color_quote 17ad98
+fish_color_redirection dc8a0e
+fish_color_search_match dc8a0e --background=brblack
+fish_color_selection bcbabe --bold --background=brblack
+fish_color_status ff5555
+fish_color_user 17ad98
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion ea9a97
+fish_pager_color_description dc8a0e
+fish_pager_color_prefix bcbabe --bold --underline
+fish_pager_color_progress 6272a4
+fish_pager_color_progress f5f4f7 --background=cyan
+fish_pager_color_secondary_background
+fish_pager_color_secondary_completion f8f8f2
+fish_pager_color_secondary_description 6272a4
+fish_pager_color_secondary_prefix 8be9fd
+fish_pager_color_selected_background --background=44475a
+fish_pager_color_selected_completion f8f8f2
+fish_pager_color_selected_description 6272a4
+fish_pager_color_selected_prefix 8be9fd

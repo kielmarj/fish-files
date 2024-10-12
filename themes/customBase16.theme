@@ -1,0 +1,50 @@
+#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
+#┆ FILE: ~/.config/fish/themes/customBase16.theme                              ┆
+#┆ ABOUT: (custom) base16 fish theme that is more colorful than fish's builtin ┆
+#┆   'base16' theme.                                                           ┆
+#┆ USAGE: To demo, run `fish_config theme demo customBase16`. To load this     ┆
+#┆   theme every time fish is launched, add 'fish_config theme choose          ┆
+#┆   customBase16' to config.fish.                                             ┆
+#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
+#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
+#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
+
+fish_color_autosuggestion brred
+fish_color_cancel brgreen
+fish_color_command bryellow
+fish_color_comment brcyan
+fish_color_cwd brblue
+fish_color_cwd_root brblue
+fish_color_end brgreen
+fish_color_error brmagenta --underline
+fish_color_escape brgreen
+fish_color_history_current brred --bold
+fish_color_host brmagenta
+fish_color_host_remote brmagenta
+fish_color_keyword brblue
+fish_color_match brred
+fish_color_normal bryellow
+fish_color_operator brmagenta
+fish_color_option brcyan
+fish_color_param bryellow
+fish_color_quote brblue
+fish_color_redirection brcyan --bold
+fish_color_search_match bryellow --background=brblack
+fish_color_selection brblue --background=brblack
+fish_color_status brmagenta
+fish_color_user bryellow
+fish_color_valid_path brcyan --underline
+fish_pager_color_background --background=black
+fish_pager_color_completion bryellow
+fish_pager_color_description brred
+fish_pager_color_prefix brblue
+fish_pager_color_progress brcyan
+fish_pager_color_secondary_background
+fish_pager_color_selected_background --background=brblack
+fish_pager_color_secondary_completion
+fish_pager_color_secondary_description
+fish_pager_color_secondary_prefix
+fish_pager_color_selected_background --background=brblack
+fish_pager_color_selected_completion
+fish_pager_color_selected_description
+fish_pager_color_selected_prefix
