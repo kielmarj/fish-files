@@ -30,7 +30,6 @@ function forFileIn
     # Run $command on all files in $dir
     for file in $dir/*
         if test -f $file
-            echo "Running $command on $file"
             $command $file
         end
     end
