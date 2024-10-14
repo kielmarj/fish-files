@@ -47,32 +47,32 @@ function mkx --argument dirAbbr --argument shellAbbr --argument scriptName \
 
     # DIRECTORY ABBREVIATIONS used to set the script path
     switch $dirAbbr
-    case 'b'
-        set -f script $HOME/bin/$scriptName
-    case 'c'
-        set -f script $HOME/bin/collection/$scriptName
-    case 't'
-        set -f script $HOME/bin/testing/$scriptName
-    case 'eb'
-        set -f script $HOME/bin/exercism/bash/$scriptName
-    case '*'
-        printf "ERROR: invalid directory abbreviation\n$USAGE"
-        return 2
+        case b
+            set script $HOME/bin/$scriptName
+        case c
+            set script $HOME/Projects/script-collection/$scriptName
+        case t
+            set script $HOME/Projects/testing/$scriptName
+        case eb
+            set script $HOME/Projects/exercism-solutions/bash/$scriptName
+        case '*'
+            printf "ERROR: invalid directory abbreviation\n$USAGE"
+            return 2
     end
 
     # SHELL ABBREVIATIONS used to add the shebang line
     switch $shellAbbr
-    case 'b'
-        printf '#!/usr/bin/env bash\n' >$script
-    case 'f'
-        printf '#!/usr/bin/env fish\n' >$script
-    case 's'
-        printf '#!/usr/bin/env sh\n' >$script
-    case 'z'
-        printf '#!/usr/bin/env zsh\n' >$script
-    case '*'
-        printf "ERROR: invalid shell abbreviation\n$USAGE"
-        return 2
+        case b
+            printf '#!/usr/bin/env bash\n' >$script
+        case f
+            printf '#!/usr/bin/env fish\n' >$script
+        case s
+            printf '#!/usr/bin/env sh\n' >$script
+        case z
+            printf '#!/usr/bin/env zsh\n' >$script
+        case '*'
+            printf "ERROR: invalid shell abbreviation\n$USAGE"
+            return 2
     end
 
     printf "# $scriptName\n" >>$script
