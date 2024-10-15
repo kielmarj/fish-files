@@ -19,12 +19,3 @@ function printFiles --description "Only print paths to actual files"
         end
     end
 end
-
-# bash equivalent:
-# printFiles (){
-#    while read input; do
-#        if [[ -f "$input" ]]; then
-#          echo "$input"
-#        fi
-#    done
-# }
