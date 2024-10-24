@@ -6,6 +6,7 @@ SETUVAR --export EDITOR:micro
 SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dmulti\x20\x2d\x2dlayout\x20reverse\x20\x2d\x2dborder\x20double\x20\x2d\x2dhighlight\x2dline\x20\x2d\x2dpreview\x2dwindow\x2065\x25\x20\x2d\x2dcolor\x3d\x22preview\x2dbg\x3a\x23282a36\x2cfg\x3a\x238be9fd\x2cbg\x3ablack\x2chl\x2b\x3a\x23f1fa8c\x2chl\x3a\x23f1fa8c\x2cfg\x2b\x3a\x2350fa7b\x2cbg\x2b\x3a\x23282a36\x2cgutter\x3a\x23bd93f9\x2cquery\x3a\x23f1fa8c\x2cinfo\x3a\x23ffb86c\x2cborder\x3a\x23ff79c6\x2cscrollbar\x3a\x23ffb86c\x2cpreview\x2dborder\x3a\x23bd93f9\x2cpreview\x2dscrollbar\x3a\x23ffb86c\x2cprompt\x3a\x2350fa7b\x2cpointer\x3a\x23ffb86c\x2cmarker\x3a\x23ffb86c\x2cspinner\x3a\x23bd93f9\x22
 SETUVAR --export GNUPGHOME:/home/jess/\x2elocal/share/gpg
 SETUVAR --export GOPATH:/home/jess/\x2elocal/lib/go
+SETUVAR --export --path MANPATH:/home/jess/\x2elocal/lib/rustup/toolchains/stable\x2dx86_64\x2dunknown\x2dlinux\x2dgnu/share/man\x1e/usr/local/man\x1e/usr/local/share/man\x1e/usr/share/man
 SETUVAR --export NPM_CONFIG_USERCONFIG:/home/jess/\x2econfig/npm/npmrc
 SETUVAR --export OPENER:mimeo
 SETUVAR --export PAGER:bat
