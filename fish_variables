@@ -18,4 +18,4 @@ SETUVAR --export VISUAL:code
 SETUVAR __fish_initialized:3400
 SETUVAR fish_features:qmark\x2dnoglob
 SETUVAR fish_key_bindings:fish_default_key_bindings
-SETUVAR fish_user_paths:/home/jess/bin\x1e/home/jess/Projects/testing\x1e/home/jess/\x2elocal/lib/cargo/bin\x1e/home/jess/\x2elocal/lib/npm/bin
+SETUVAR fish_user_paths:/home/jess/bin\x1e/home/jess/Projects/Private/testing\x1e/home/jess/Projects/Private/script\x2dcollection\x1e/home/jess/Projects/Private/exercism\x2dsolutions\x1e/home/jess/\x2elocal/lib/cargo/bin\x1e/home/jess/\x2elocal/lib/npm/bin\x1e/home/jess/packages/writerside\x2d242\x2e21870\x2e138/bin
