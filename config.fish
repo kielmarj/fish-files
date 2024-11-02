@@ -14,8 +14,10 @@ if status is-interactive
     zoxide init fish | source
     source /usr/share/wikiman/widgets/widget.fish
     source /home/jess/packages/writerside-242.21870.138/plugins/terminal/shell-integrations/fish/fish-integration.fish
-    broot --print-shell-function fish | source
+    # broot --print-shell-function fish | source
 
     # zen quotes
-    curl -s -X GET -H "Content-Type: application/json" https://zenquotes.io/api/random | jq -r '" " as $space | .[0] | .q + "\n\n\($space * ((.q |length)-(.a |length) - 2))--" + .a' | cowsay -nsf $(cowsay -l | tail -n +2 | tr ' ' '\n' | shuf -n1) | lolcat
+    echo ""
+	curl -s -X GET -H "Content-Type: application/json" https://zenquotes.io/api/random | jq -r '" " as $space | .[0] | .q + "\n\n\($space * ((.q |length)-(.a |length) - 2))--" + .a' |  tr -s \[:blank:\] | lolcat
+    echo ""
 end
