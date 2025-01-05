@@ -1,13 +1,3 @@
-#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
-#┆ FILE: ~/.config/fish/themes/moonlight.theme                                 ┆
-#┆ ABOUT: moonlight fish theme                                                 ┆
-#┆ USAGE: To demo, run `fish_config theme demo moonlight`. To load this theme  ┆
-#┆   every time fish is launched, add 'fish_config theme choose moonlight' to  ┆
-#┆   config.fish.                                                              ┆
-#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
-#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
-#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
-
 fish_color_normal normal
 fish_color_command 40ffff
 fish_color_quote 2df4c0

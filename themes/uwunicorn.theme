@@ -1,13 +1,3 @@
-#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
-#┆ FILE: ~/.config/fish/themes/uwunicorn.theme                                 ┆
-#┆ ABOUT: uwunicorn fish theme                                                 ┆
-#┆ USAGE: To demo, run `fish_config theme demo uwunicorn`. To load this theme  ┆
-#┆   every time fish is launched, add 'fish_config theme choose uwunicorn' to  ┆
-#┆   config.fish.                                                              ┆
-#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
-#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
-#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
-
 fish_color_autosuggestion 6c3cb2
 fish_color_cancel ff5555 --reverse
 fish_color_command 6a9eb5

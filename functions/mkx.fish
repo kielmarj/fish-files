@@ -23,9 +23,7 @@
 # * You may also want to adjust the USAGE text at the start of the script once
 #   you have set your preferred directory and shell abbreviations.
 
-function mkx --argument dirAbbr --argument shellAbbr --argument scriptName \
-    --description \
-    "Create a shell script, make it executable, and open it in $EDITOR"
+function mkx --argument dirAbbr --argument shellAbbr --argument scriptName --description "fn Create a shell script, make it executable, and open it in $EDITOR"
 
     set -f USAGE "\nUSAGE: mkx [dirAbbr] [shellAbbr] <scriptName> \n\
     \rdirAbbr:            \n\

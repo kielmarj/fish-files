@@ -1,16 +1,5 @@
 #!/usr/bin/env fish
-
-#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
-#┆ FILE: ~/.config/fish/functions/extract.fish                                 ┆
-#┆ ABOUT: Fish function for extracting various archive formats.                ┆
-#┆ USAGE: extract <archive>                                                    ┆
-#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
-#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
-#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
-
-status is-interactive || exit
-
-function extract --description "Extract files from various archive formats."
+function extract --description "fn Extract files from various archive formats."
     # Exit with error & print USAGE if no argument is provided
     if test (count $argv) -eq 0
         echo "USAGE: extract <archive>"

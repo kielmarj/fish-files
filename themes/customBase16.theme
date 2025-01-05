@@ -1,14 +1,3 @@
-#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
-#┆ FILE: ~/.config/fish/themes/customBase16.theme                              ┆
-#┆ ABOUT: (custom) base16 fish theme that is more colorful than fish's builtin ┆
-#┆   'base16' theme.                                                           ┆
-#┆ USAGE: To demo, run `fish_config theme demo customBase16`. To load this     ┆
-#┆   theme every time fish is launched, add 'fish_config theme choose          ┆
-#┆   customBase16' to config.fish.                                             ┆
-#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
-#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
-#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
-
 fish_color_autosuggestion brred
 fish_color_cancel brgreen
 fish_color_command bryellow

@@ -5,7 +5,7 @@
 #╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
 
 function note --argument noteText \
-    --description "appends timestamped notes to a .txt file"
+    --description "fn Appends timestamped notes to a .txt file"
 
     set noteFile $HOME/Projects/private-notes/basket/notes.txt
     set ts "$(date +%Y-%m-%d\ %I:%M%P)"
