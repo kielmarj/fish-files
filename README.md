@@ -4,7 +4,7 @@ Welcome to the Fish Files! These are my personal fish shell files.
 
 ## Contributing
 
-You are invited to contribute or reach if you experience any issues or have any suggestions for ipmrovements. I'd love to hear from you!
+You are invited to contribute or reach out if you experience any issues or have any suggestions for ipmrovements. I'd love to hear from you!
 
 ## License
 
