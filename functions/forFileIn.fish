@@ -1,6 +1,4 @@
-#!/usr/bin/env fish
-
-function forFileIn
+function forFileIn --description "fn Run a command on all files in a directory after creating backups"
     set USAGE "USAGE: forFileIn <directory> <command>"
 
     # Test if at least 2 arguments have been provided
@@ -30,6 +28,9 @@ function forFileIn
     # Run $command on all files in $dir
     for file in $dir/*
         if test -f $file
+            # Create backups first
+            cp $file $file.bak
+            # Run the command on the file
             $command $file
         end
     end

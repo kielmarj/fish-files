@@ -1,11 +1,8 @@
-#!/usr/bin/env fish
-function extract --description "fn Extract files from various archive formats."
-    # Exit with error & print USAGE if no argument is provided
+function extract --description "fn Extract files from various archive formats"
     if test (count $argv) -eq 0
         echo "USAGE: extract <archive>"
         return 1
     end
-    # Use file extension to determine which tool to use
     switch $argv
         case '*.tar.bz2'
             tar xjf $argv

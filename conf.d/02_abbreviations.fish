@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-#    DATE 2024-10-12_04:33 MODIFIED 2024-11-10_22:33
+#    DATE 2024-10-12_04:33 | MODIFIED 2025-01-10_22:33
 #    FILE ~/.config/fish/conf.d/02_abbreviations.fish
 #  AUTHOR © 2024 Jessica Kielmar <kielmarj@gmail.com>
 #    REPO TODO
@@ -13,14 +13,6 @@ abbr -a i 'cd /home/jess/inbox'
 abbr -a pr 'cd /home/jess/Projects/Private'
 abbr -a pb 'cd /home/jess/Projects/Published'
 abbr -a t 'cd /home/jess/Projects/Private/testing'
-
-### Git ###
-# Ignore changes in a specific file. The cursor will be placed before the
-# placeholder 'FILE'. Replace 'FILE' with the actual file name.
-# abbr -a gau --set-cursor 'git update-index --assume-unchanged %FILE'
-# Stop ignoring changes in a specific file. The cursor will be placed before
-# the placeholder 'FILE'. Replace 'FILE' with the actual file name.
-# abbr -a nogau --set-cursor 'git update-index --no-assume-unchanged %FILE'
 
 abbr -a --position anywhere --function bangbang -- !!
 abbr -a binds 'cat .config/hypr/conf/binds.conf | bat'

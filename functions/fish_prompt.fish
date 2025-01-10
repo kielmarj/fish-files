@@ -1,14 +1,3 @@
-#!/usr/bin/env fish
-
-#╭━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╮
-#┆ FILE: ~/.config/fish/functions/fish_prompt.fish                             ┆
-#┆ ABOUT: A couple fish prompts to choose from (both colored to match current  ┆
-#┆   theme).                                                                   ┆
-#┆ USAGE: Uncomment desired prompt.                                            ┆
-#┆ REPO: https://github.com/NaturalBornCyborg/dot_dot_dots                     ┆
-#┆ © 2024 NaturalBornCyborg <naturalborncyborg@proton.me>, GPL-3.0             ┆
-#╰━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━◦○◦━╯
-
 status is-interactive || exit
 
 # Prints the full path of the current directory

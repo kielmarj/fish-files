@@ -1,6 +1,5 @@
-#!/usr/bin/env fish
-
-function pkgFiles --argument package
+function pkgFiles --argument package \
+    --description "fn List all files installed by a package"
     if test (count $argv) -ne 1
         echo "USAGE: \$0 <installed package name>"
         exit 1

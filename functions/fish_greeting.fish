@@ -1,9 +1,8 @@
-#!/usr/bin/env fish
-
 status is-interactive || exit
 
+# ────────────────────────────────────────────────────────────────
 # Simple welcome message + date/time. Colored to match current theme.
-#
+# ────────────────────────────────────────────────────────────────
 # function fish_greeting
 #     printf "\e[94mWelcome to \e[96m$(cat /etc/hostname).\e[0m"
 #     echo
@@ -11,16 +10,16 @@ status is-interactive || exit
 #     echo ""
 # end
 
-
+# ────────────────────────────────────────────────────────────────
 # The only greeting anyone really needs.
-#
+# ────────────────────────────────────────────────────────────────
 # function fish_greeting
 #     fortune | cowsay | lolcat
 # end
 
-
+# ────────────────────────────────────────────────────────────────
 # All hail fish. Art by https://github.com/justinmayer/tackle/blob/master/functions/_logo.fish
-#
+# ────────────────────────────────────────────────────────────────
 function fish_greeting
     echo '                 '(set_color F00)'___
   ___======____='(set_color FF7F00)'-'(set_color FF0)'-'(set_color FF7F00)'-='(set_color F00)')
