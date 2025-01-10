@@ -1,4 +1,4 @@
-# Fish Project
+# Fish Files
 
 Welcome to the Fish Files! These are my personal fish shell files. 
 
