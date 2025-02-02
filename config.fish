@@ -3,8 +3,6 @@ status is-interactive || exit
 # Load theme
 fish_config theme choose customBase16
 
-# Integrations
-zoxide init fish | source
 # Adds `CTRL+F` as a keybinding to launch wikiman.
 source /usr/share/wikiman/widgets/widget.fish
 
