@@ -25,8 +25,8 @@ function describe_functions --description "Load function descriptions for tab co
     for file in $fish_function_path/*.fish
         set -f cmd (basename $file .fish)
         set -f desc (functions -Dv $cmd)[5]
-        set -a output "- `$cmd`: $desc"
+        set -a output "`$cmd`: $desc"
     end
-    printf '%s\n' $output | sort
+    printf '%s\n' $output
 end
 describe_functions 2&>/dev/null
