@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+#    DATE 2024-10-12_04:33 | MODIFIED 2025-03-03_05:12
+#    FILE ~/.config/fish/conf.d/01_environment.fish
+#  AUTHOR © 2025 Jessica Kielmar <kielmarj@gmail.com>
+#    REPO https://github.com/kielmarj/fish-files
+# LICENSE MIT
+# ------------------------------------------------------------------------------
+
 set -x BROWSER brave
 set -x CARGO_HOME /home/jess/.local/lib/cargo
 set -x COLUMNS 80
