@@ -27,6 +27,6 @@ function describe_functions --description "Load function descriptions for tab co
         set -f desc (functions -Dv $cmd)[5]
         set -a output "`$cmd`: $desc"
     end
-    printf '%s\n' $output
+    printf '%s\n' $output | sort -d
 end
 describe_functions 2&>/dev/null
