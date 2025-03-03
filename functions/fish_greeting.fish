@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+#    DATE 2025-01-10 | UPDATED 2025-03-03
+#    FILE ~/.config/fish/functions/fish_greeting.fish
+#  AUTHOR © 2025 Jessica Kielmar <kielmarj@gmail.com>
+#    REPO https://github.com/kielmarj/fish-files
+# LICENSE MIT
+# ------------------------------------------------------------------------------
+
 status is-interactive || exit
 
 # ────────────────────────────────────────────────────────────────
@@ -37,4 +45,3 @@ function fish_greeting
                       (J'(set_color FF7F00)'JJ'(set_color F00)'| \UUU)
                        (UU)'(set_color normal)
 end
-

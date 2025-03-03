@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+#    DATE 2025-01-10 | UPDATED 2025-03-03
+#    FILE ~/.config/fish/functions/mkx.fish
+#  AUTHOR © 2025 Jessica Kielmar <kielmarj@gmail.com>
+#    REPO https://github.com/kielmarj/fish-files
+# LICENSE MIT
+# ------------------------------------------------------------------------------
+
 function mkx --argument dirAbbr --argument shellAbbr --argument scriptName \
     --description "fn Create shell script, make it executable, open in $EDITOR"
 

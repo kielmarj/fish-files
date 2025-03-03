@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+#    DATE 2024-09-09 | MODIFIED 2025-03-03
+#    FILE ~/.config/fish/themes/uwunicorn.theme
+#  AUTHOR © 2025 Jessica Kielmar <kielmarj@gmail.com>
+#    REPO https://github.com/kielmarj/fish-files
+# LICENSE MIT
+# ------------------------------------------------------------------------------
+
 fish_color_autosuggestion 6c3cb2
 fish_color_cancel ff5555 --reverse
 fish_color_command 6a9eb5

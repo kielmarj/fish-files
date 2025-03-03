@@ -1,3 +1,11 @@
+# ------------------------------------------------------------------------------
+#    DATE 2025-01-10 | UPDATED 2025-03-03
+#    FILE ~/.config/fish/functions/extract.fish
+#  AUTHOR © 2025 Jessica Kielmar <kielmarj@gmail.com>
+#    REPO https://github.com/kielmarj/fish-files
+# LICENSE MIT
+# ------------------------------------------------------------------------------
+
 function extract --description "fn Extract files from various archive formats"
     if test (count $argv) -eq 0
         echo "USAGE: extract <archive>"

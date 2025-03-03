@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-#    DATE 2024-10-12_04:33 | MODIFIED 2025-03-03_05:12
+#    DATE 2024-10-12_04:33 | UPDATED 2025-03-03_05:12
 #    FILE ~/.config/fish/conf.d/02_abbreviations.fish
 #  AUTHOR © 2025 Jessica Kielmar <kielmarj@gmail.com>
 #    REPO https://github.com/kielmarj/fish-files
